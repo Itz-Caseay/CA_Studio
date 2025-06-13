@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: rba(22,23,44);
+    
+}
+.file{
+    display: flex;
+    flex-wrap: wrap;
+    height: fit-content;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+.song{
+    background-color: whitesmoke;
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 20px;
+    width: 100vh;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    
+}
+.song img{
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+.song p{
+    font-size: 14;
+}
+.song h1{
+    font-size: 14;
+}
+.track{
+    position: relative;
+}
