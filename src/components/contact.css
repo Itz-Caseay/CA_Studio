@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent
+}
+
+.Contact {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 30px;
+    top: 65px;
+}
+.Contact.show{
+    display: block;
+}
+.Contact.close{
+    display: none;
+}
+
+.Contact h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+    span{
+        color: rgb(239, 243, 26);
+    }
+}
+
+.Contact p {
+    margin-bottom: 20px;
+    font-size: 12px;
+}
+
+.Contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact input,
+.Contact textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    border-radius: 4px;
+}
+
+.Contact .btn{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Contact .btn:hover {
+    background: transparent;
+    border: 1px solid #000;
+    transition: .9s ease-in-out;
+    color: #000;
+}
+
+.Contact .accounts {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.Contact .accounts a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}   
