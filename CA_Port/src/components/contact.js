@@ -20,7 +20,7 @@ function Contact() {
                 <button className="btn" type="submit">Send Message</button>
             </form>
             <div className="accounts">
-                <a href="https://wa.me/+237673044019?text=Hi, Caseay I'm Interested in your work"><img src={whatsapp}/></a>
+                <a href="https://wa.me/+237673044019?text=Hi, Caseay I'm Interested in your work. Can I hire you?"><img src={whatsapp}/></a>
                 <a href="https://www.facebook.com/caseay.drilling"><img src={facebook}/></a>
                 <a href="https://t.me/+237673044019"><img src={telegram}/></a>
                 <a href="mailto:chowelangefabrice135@gmail.com?subject=Hello Caseay_Off&body=Hi Caseay, I'm interested in your work"><img src={mail}/></a>
