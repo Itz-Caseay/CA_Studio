@@ -19,6 +19,18 @@ function Contact() {
                 <textarea placeholder="Your Message" required></textarea>
                 <button className="btn" type="submit">Send Message</button>
             </form>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3737365932519116"
+     crossorigin="anonymous"></script>
+<!-- Homepage Banner -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3737365932519116"
+     data-ad-slot="8202955466"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
             <div className="accounts">
                 <a href="https://wa.me/+237673044019?text=Hi, Caseay I'm Interested in your work. Can I hire you?"><img src={whatsapp}/></a>
                 <a href="https://www.facebook.com/caseay.drilling"><img src={facebook}/></a>
